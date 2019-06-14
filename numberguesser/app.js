@@ -52,7 +52,7 @@ guessBtn.addEventListener('click', function(){
         //Continue
         guessInput.style.borderColor = 'red';
         guessInput.value = '';
-        setMessage(`${guess} is not correct, guesses left : ${guessesLeft} try again`, 'red')
+        setMessage(`${guess} is not correct, guesses left :${guessesLeft} try again`, 'red')
     }
    }
 ;});
